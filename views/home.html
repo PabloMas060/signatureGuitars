@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/6f4f4fce15.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/styles.css">
     <title>SignatureGuitars</title>
-    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glider@1.10.1/dist/glider.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="glider.css" />
-    <script src="glider.js"></script>
+
+
 </head>
 <header class="home__header">
     <div class="home__header_logo">
@@ -35,34 +35,28 @@
         <img src="/img/banner-rhcp.gif" alt="bannerAnimado">
     </div>
     <div class="home__body_carreteMarcas"><!-- CARRETE MARCAS -->
-        <div><img src="/img/marcaBCRich.png" alt="marca1"></div>
-        <div><img src="/img/marcaFender.png" alt="marca2"></div>
-        <div><img src="/img/marcaEpiphone.png" alt="marca3"></div>
-        <div><img src="/img/marcaPRS.webp" alt="marca4"></div>
-        <div><img src="/img/marcaGibson.jpg" alt="marca5"></div>
-        <div><img src="/img/marcaIbanez.jpg" alt="marca6"></div>
-        <div><img src="/img/marcaSquier.png" alt="marca7"></div>
+        <div class="home__body_carreteMarcas-container">
+
+            <div class="home__body_carreteMarcas-container-image"><img src="/img/marcaBCRich.png" alt="marca1"></div>
+            <div class="home__body_carreteMarcas-container-image"><img src="/img/marcaFender.png" alt="marca2"></div>
+            <div class="home__body_carreteMarcas-container-image"><img src="/img/marcaEpiphone.png" alt="marca3"></div>
+            <div class="home__body_carreteMarcas-container-image"><img src="/img/marcaPRS.webp" alt="marca4"></div>
+            <div class="home__body_carreteMarcas-container-image"><img src="/img/marcaGibson.jpg" alt="marca5"></div>
+            <div class="home__body_carreteMarcas-container-image"><img src="/img/marcaIbanez.jpg" alt="marca6"></div>
+            <div class="home__body_carreteMarcas-container-image"><img src="/img/marcaSquier.png" alt="marca7"></div>
+
+        </div>
     </div>
 
     <section class="home__body_sectionOfertas">
         <h2 class="home__body_sectionOfertas--titulo">Ofertas</h2>
-        <!--  <div>
-
-            <div>
-                <img src="/img/prod1.jpg" alt="">
-                <div>
-                    <h3>Nombre Producto</h3>
-                    <p>Precio</p>
-                    <div>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-cart-shopping"></i>
-                    </div>
-                </div>
-            </div>
-        </div> -->
         <div class="glider-contain">
+            <button class="home__body_sectionOfertas_glider--button-prev"><i
+                    class="fas fa-chevron-circle-left"></i></button>
             <div class="glider">
-                <div> <img src="/img/prod1.jpg" alt="">
+
+                <div class="card"><!-- card -->
+                    <img src="/img/prod1.jpg" alt="">
                     <div>
                         <h3>Nombre Producto</h3>
                         <p>Precio</p>
@@ -72,7 +66,8 @@
                         </div>
                     </div>
                 </div>
-                <div> <img src="/img/prod1.jpg" alt="">
+                <div class="card"><!-- card -->
+                    <img src="/img/prod2.jpg" alt="">
                     <div>
                         <h3>Nombre Producto</h3>
                         <p>Precio</p>
@@ -82,17 +77,8 @@
                         </div>
                     </div>
                 </div>
-                <div> <img src="/img/prod1.jpg" alt="">
-                    <div>
-                        <h3>Nombre Producto</h3>
-                        <p>Precio</p>
-                        <div>
-                            <i class="fa-regular fa-star"></i>
-                            <i class="fa-regular fa-cart-shopping"></i>
-                        </div>
-                    </div>
-                </div>
-                <div> <img src="/img/prod1.jpg" alt="">
+                <div class="card"><!-- card -->
+                    <img src="/img/prod3.jpg" alt="">
                     <div>
                         <h3>Nombre Producto</h3>
                         <p>Precio</p>
@@ -103,11 +89,10 @@
                     </div>
                 </div>
             </div>
-
-            <button aria-label="Previous" class="glider-prev">«</button>
-            <button aria-label="Next" class="glider-next">»</button>
-            <div role="tablist" class="dots"></div>
+            <button class="home__body_sectionOfertas_glider--button-next"><i
+                    class="fas fa-chevron-circle-right"></i></button>
         </div>
+
     </section>
     <section class="home__body_sectionUltimos">
         <h2 class="home__body_sectionUltimos--titulo">Últimos Modelos</h2>
@@ -161,25 +146,11 @@
                 </div>
             </div><!-- fin card -->
         </div>
-    </section>
-    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glider@1.10.1/dist/glider.min.js">
 
-        new Glider(document.querySelector('.glider'), {
-            slidesToShow: 5,
-            slidesToScroll: 1,
-            draggable: true,
-            dots: '.dots',
-            arrows: {
-                prev: '.glider-prev',
-                next: '.glider-next'
-            }
-        });
-        window.addEventListener('load', function () {
-            new Glider(document.querySelector('.glider'), {
-                slidesToShow: 5
-            })
-        })
-    </script>
+    </section>
+
+    <script src="/javascript/glider.js"></script>
+    <script src="/javascript/carouselMarcas.js"></script>
 </body>
 <footer class="home__footer">
     <div class="home__footer_info"><!-- otros links -->
