@@ -10,28 +10,31 @@
     <link rel="stylesheet" type="text/css" href="glider.css" />
     <script src="glider.js"></script>
 </head>
-<header>
-    <div>
+<header class="home__header">
+    <div class="home__header_logo">
         <a href=""><img src="/img/Logo.png" alt="Logo"></a>
     </div>
-    <nav>
+    <button class="home__header_burguerMenu">
+        <i class="fa-solid fa-bars"></i>
+    </button>
+    <nav class="home__header_nav-menu">
         <ul>
-            <li><a href="">Catálogo</a></li>
-            <li><a href="">Noticias</a></li>
-            <li><a href="">Categorías</a></li>
+            <li class="home__header_butonCatalogo"><a href="">Catálogo</a></li>
+            <li class="home__header_butonNoticias"><a href="">Noticias</a></li>
+            <li class="home__header_butonCategorias"><a href="">Categorías</a></li>
         </ul>
     </nav>
-    <nav>
-        <a href=""><i class="fa-solid fa-user"></i></a>
-        <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+    <nav class="home__header_nav-users">
+        <a href="" class="home__header_nav--users-user"><i class="fa-solid fa-user"></i></a>
+        <a href="" class="home__header_nav--users-cart"><i class="fa-solid fa-cart-shopping"></i></a>
     </nav>
 </header>
 
-<body>
-    <div><!-- BANNER -->
+<body class="home__body">
+    <div class="home__body_banner"><!-- BANNER -->
         <img src="/img/banner-rhcp.gif" alt="bannerAnimado">
     </div>
-    <div><!-- CARRETE MARCAS -->
+    <div class="home__body_carreteMarcas"><!-- CARRETE MARCAS -->
         <div><img src="/img/marcaBCRich.png" alt="marca1"></div>
         <div><img src="/img/marcaFender.png" alt="marca2"></div>
         <div><img src="/img/marcaEpiphone.png" alt="marca3"></div>
@@ -41,8 +44,8 @@
         <div><img src="/img/marcaSquier.png" alt="marca7"></div>
     </div>
 
-    <section>
-        <h2>Ofertas</h2>
+    <section class="home__body_sectionOfertas">
+        <h2 class="home__body_sectionOfertas--titulo">Ofertas</h2>
         <!--  <div>
 
             <div>
@@ -106,52 +109,52 @@
             <div role="tablist" class="dots"></div>
         </div>
     </section>
-    <section>
-        <h2>Últimos Modelos</h2>
-        <div><!-- Contenedor cards -->
-            <div><!-- Card -->
+    <section class="home__body_sectionUltimos">
+        <h2 class="home__body_sectionUltimos--titulo">Últimos Modelos</h2>
+        <div class="home__body_sectionUltimos--container"><!-- Contenedor cards -->
+            <div class="home__body_sectionUltimos--card"><!-- Card -->
                 <img src="/img/prod1.jpg" alt="">
-                <div>
-                    <h3>Nombre Producto</h3>
-                    <p>Descripcion</p>
-                    <p>Precio</p>
-                    <div>
+                <div class="home__body_sectionUltimos--card-info">
+                    <h3 class="home__body_sectionUltimos--card-info-titulo">Nombre Producto</h3>
+                    <p class="home__body_sectionUltimos--card-info-descripcion">Descripcion</p>
+                    <p class="home__body_sectionUltimos--card-info-precio">Precio</p>
+                    <div class="home__body_sectionUltimos--card-info-iconos">
                         <i class="fa-regular fa-star"></i>
                         <i class="fa-regular fa-cart-shopping"></i>
                     </div>
                 </div>
             </div><!-- fin card -->
-            <div><!-- Card -->
+            <div class="home__body_sectionUltimos--card"><!-- Card -->
                 <img src="/img/prod1.jpg" alt="">
-                <div>
-                    <h3>Nombre Producto</h3>
-                    <p>Descripcion</p>
-                    <p>Precio</p>
-                    <div>
+                <div class="home__body_sectionUltimos--card-info">
+                    <h3 class="home__body_sectionUltimos--card-info-titulo">Nombre Producto</h3>
+                    <p class="home__body_sectionUltimos--card-info-descripcion">Descripcion</p>
+                    <p class="home__body_sectionUltimos--card-info-precio">Precio</p>
+                    <div class="home__body_sectionUltimos--card-info-iconos">
                         <i class="fa-regular fa-star"></i>
                         <i class="fa-regular fa-cart-shopping"></i>
                     </div>
                 </div>
             </div><!-- fin card -->
-            <div><!-- Card -->
+            <div class="home__body_sectionUltimos--card"><!-- Card -->
                 <img src="/img/prod1.jpg" alt="">
-                <div>
-                    <h3>Nombre Producto</h3>
-                    <p>Descripcion</p>
-                    <p>Precio</p>
-                    <div>
+                <div class="home__body_sectionUltimos--card-info">
+                    <h3 class="home__body_sectionUltimos--card-info-titulo">Nombre Producto</h3>
+                    <p class="home__body_sectionUltimos--card-info-descripcion">Descripcion</p>
+                    <p class="home__body_sectionUltimos--card-info-precio">Precio</p>
+                    <div class="home__body_sectionUltimos--card-info-iconos">
                         <i class="fa-regular fa-star"></i>
                         <i class="fa-regular fa-cart-shopping"></i>
                     </div>
                 </div>
             </div><!-- fin card -->
-            <div><!-- Card -->
+            <div class="home__body_sectionUltimos--card"><!-- Card -->
                 <img src="/img/prod1.jpg" alt="">
-                <div>
-                    <h3>Nombre Producto</h3>
-                    <p>Descripcion</p>
-                    <p>Precio</p>
-                    <div>
+                <div class="home__body_sectionUltimos--card-info">
+                    <h3 class="home__body_sectionUltimos--card-info-titulo">Nombre Producto</h3>
+                    <p class="home__body_sectionUltimos--card-info-descripcion">Descripcion</p>
+                    <p class="home__body_sectionUltimos--card-info-precio">Precio</p>
+                    <div class="home__body_sectionUltimos--card-info-iconos">
                         <i class="fa-regular fa-star"></i>
                         <i class="fa-regular fa-cart-shopping"></i>
                     </div>
@@ -178,25 +181,27 @@
         })
     </script>
 </body>
-<footer>
-    <div><!-- otros links -->
-        <nav>
+<footer class="home__footer">
+    <div class="home__footer_info"><!-- otros links -->
+        <nav class="home__footer_info-nav">
             <ul>
-                <li><a href="">Preguntas Frecuentes</a></li>
-                <li><a href="">Términos y Condiciones</a></li>
-                <li><a href="">Medios de Pago</a></li>
+                <li class="home__footer_info-nav-faqs"><a href="">Preguntas Frecuentes</a></li>
+                <li class="home__footer_info-nav-terms"><a href="">Términos y Condiciones</a></li>
+                <li class="home__footer_info-nav-pagos"><a href="">Medios de Pago</a>
+                    <span class="home__footer_info--nav-pagos-iconos">
+                        <i class="fa-brands fa-cc-visa"></i>
+                        <i class="fa-brands fa-cc-mastercard"></i>
+                        <i class="fa-brands fa-bitcoin"></i>
+                    </span>
+                </li>
             </ul>
         </nav>
-        <span>
-            <i class="fa-brands fa-cc-visa"></i>
-            <i class="fa-brands fa-cc-mastercard"></i>
-            <i class="fa-brands fa-bitcoin"></i>
-        </span>
+
     </div>
-    <div><!-- contacto -->
-        <h3>Contacto</h3>
-        <h5>signature@guitars.com</h5>
-        <nav>
+    <div class="home__footer_info-contacto"><!-- contacto -->
+        <h3 class="home__footer_info-contacto-titulo">Contacto</h3>
+        <h5 class="home__footer_info-contacto-mail">signature@guitars.com</h5>
+        <nav class="home__footer_info-nav">
             <a href=""><i class="fa-brands fa-instagram"></i></a>
             <a href=""><i class="fa-brands fa-youtube"></i></a>
             <a href=""><i class="fa-brands fa-discord"></i></a>
@@ -204,7 +209,7 @@
         </nav>
     </div>
     <div>
-        <h4>Copyright Pablo Mas & Sol López - 2023</h4>
+        <h4 class="home__footer_info-contacto-subtitulo">Copyright Pablo Mas & Sol López - 2023</h4>
     </div>
 
 
