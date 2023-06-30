@@ -1,4 +1,4 @@
-
+/* 
 * {
     box-sizing: border-box
 }
@@ -17,4 +17,24 @@ html, body {
 }
 .glider-slide img {
     width: 30%;
+}
+ */
+ .glider-contain {
+   /*  display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-left: 10%; */
+    width: 80%;
+    display: flex;
+ }
+ .glider {
+    display: flex;
+ }
+.card {
+    flex: 0 0 auto;
+    margin-right: 10px;
+    width: 30%;
+}
+.card img {
+    width: 100%;
 }
