@@ -1,3 +1,5 @@
 :root {
-    --colorGris: rgba(88,88,88,255)
+    --colorGris: rgba(88,88,88,255);
+    --tipografia: font-family: 'GFS Neohellenic', sans-serif;
+    font-family: 'Island Moments', cursive;
 }

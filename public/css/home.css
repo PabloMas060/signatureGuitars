@@ -1,22 +1,81 @@
-.home__header{}
-.home__header_logo{}
-.home__header_burguerMenu{}
-.home__header_nav-menu{}
-.home__header_butonCatalogo{}
-.home__header_butonNoticias{}
-.home__header_butonCategorias{}
-.home__header_nav-users{}
+.home__header{
+    background-color: black;
+    font-family: var(--tipografia);
+}
+.home__header_logo{
+    margin: 10px 10px;
+    border-radius: 25px;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* justify-content: space-around; */
+}
+.home__header_logo img{
+    width: 30%;
+}
+.home__header_container_menu{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.home__header_burguerMenu{
+    background-color: black;
+    border-radius: 50%;
+    width: 10%;
+    height: 20%;
+    margin-left: 10px;
+}
+.home__header_burguerMenu i{
+   color: #fff;
+
+}
+.home__header_nav-menu {
+display: none;
+}
+.home__header_butonCatalogo .home__header_butonCategorias 
+.home__header_butonNoticias{
+ 
+}
+.home__header_nav-users{
+    width: 20%;
+    display: flex;
+}
+.home__header_nav-users a{color: #fff;width: 50%;}
 .home__header_nav-users-user{}
 .home__header_nav-users-cart{}
-.home__body{}
-.home__body_banner{}
+.home__body{
+   color: black;
+   font-family: var(--tipografia);
+}
+.home__body_banner{
+    display: none;
+}
+.home__body_banner img{
+    width: 100%;
+
+}
 .home__body_carreteMarcas{}
-.home__body_sectionOfertas{}
-.home__body_sectionOfertas--titulo{}
+.home__body_sectionOfertas{
+    background: linear-gradient(160deg, rgba(13,4,22,1) 0%, rgba(76,89,89,0.8323704481792717) 15%, rgba(230,223,226,1) 100%);
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+
+
+
+
+}
+.home__body_sectionOfertas--titulo{
+    width: 100%;
+    
+
+}
 .home__body_sectionUltimos{}
 .home__body_sectionUltimos--titulo{}
 .home__body_sectionUltimos--container{}
 .home__body_sectionUltimos--card{}
+.home__body_sectionUltimos--card img{
+   width: 20%;
+}
 .home__body_sectionUltimos--card-info{}
 .home__body_sectionUltimos--card-info-titulo{}
 .home__body_sectionUltimos--card-info-descripcion{}

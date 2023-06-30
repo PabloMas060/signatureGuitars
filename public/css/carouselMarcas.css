@@ -15,6 +15,9 @@
     height: auto;
   
   }
+  .home__body_carreteMarcas-container-image img{
+    width: 150px;
+  }
   
   @keyframes carouselAnimation {
     0% {
