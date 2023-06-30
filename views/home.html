@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/6f4f4fce15.js" crossorigin="anonymous"></script>
     <title>SignatureGuitars</title>
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glider@1.10.1/dist/glider.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="glider.css" />
+    <script src="glider.js"></script>
 </head>
 <header>
     <div>
@@ -40,9 +43,9 @@
 
     <section>
         <h2>Ofertas</h2>
-        <div><!-- Carrete Ofertas -->
+        <!--  <div>
 
-            <div><!-- Card -->
+            <div>
                 <img src="/img/prod1.jpg" alt="">
                 <div>
                     <h3>Nombre Producto</h3>
@@ -52,8 +55,56 @@
                         <i class="fa-regular fa-cart-shopping"></i>
                     </div>
                 </div>
-            </div><!-- fin card -->
-        </div><!-- fin carrete -->
+            </div>
+        </div> -->
+        <div class="glider-contain">
+            <div class="glider">
+                <div> <img src="/img/prod1.jpg" alt="">
+                    <div>
+                        <h3>Nombre Producto</h3>
+                        <p>Precio</p>
+                        <div>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-cart-shopping"></i>
+                        </div>
+                    </div>
+                </div>
+                <div> <img src="/img/prod1.jpg" alt="">
+                    <div>
+                        <h3>Nombre Producto</h3>
+                        <p>Precio</p>
+                        <div>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-cart-shopping"></i>
+                        </div>
+                    </div>
+                </div>
+                <div> <img src="/img/prod1.jpg" alt="">
+                    <div>
+                        <h3>Nombre Producto</h3>
+                        <p>Precio</p>
+                        <div>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-cart-shopping"></i>
+                        </div>
+                    </div>
+                </div>
+                <div> <img src="/img/prod1.jpg" alt="">
+                    <div>
+                        <h3>Nombre Producto</h3>
+                        <p>Precio</p>
+                        <div>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-cart-shopping"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button aria-label="Previous" class="glider-prev">«</button>
+            <button aria-label="Next" class="glider-next">»</button>
+            <div role="tablist" class="dots"></div>
+        </div>
     </section>
     <section>
         <h2>Últimos Modelos</h2>
@@ -108,6 +159,56 @@
             </div><!-- fin card -->
         </div>
     </section>
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glider@1.10.1/dist/glider.min.js">
+
+        new Glider(document.querySelector('.glider'), {
+            slidesToShow: 5,
+            slidesToScroll: 1,
+            draggable: true,
+            dots: '.dots',
+            arrows: {
+                prev: '.glider-prev',
+                next: '.glider-next'
+            }
+        });
+        window.addEventListener('load', function () {
+            new Glider(document.querySelector('.glider'), {
+                slidesToShow: 5
+            })
+        })
+    </script>
 </body>
+<footer>
+    <div><!-- otros links -->
+        <nav>
+            <ul>
+                <li><a href="">Preguntas Frecuentes</a></li>
+                <li><a href="">Términos y Condiciones</a></li>
+                <li><a href="">Medios de Pago</a></li>
+            </ul>
+        </nav>
+        <span>
+            <i class="fa-brands fa-cc-visa"></i>
+            <i class="fa-brands fa-cc-mastercard"></i>
+            <i class="fa-brands fa-bitcoin"></i>
+        </span>
+    </div>
+    <div><!-- contacto -->
+        <h3>Contacto</h3>
+        <h5>signature@guitars.com</h5>
+        <nav>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+            <a href=""><i class="fa-brands fa-discord"></i></a>
+            <a href=""><i class="fa-brands fa-telegram"></i></a>
+        </nav>
+    </div>
+    <div>
+        <h4>Copyright Pablo Mas & Sol López - 2023</h4>
+    </div>
+
+
+
+</footer>
 
 </html>
