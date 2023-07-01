@@ -1,10 +1,14 @@
 .home__body_carreteMarcas {
     overflow: hidden; /* Oculta el contenido que desborde el contenedor */
+    background-color: #000;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
   }
   
   .home__body_carreteMarcas-container {
     display: flex; /* Crea un flex container para los elementos */
-    animation: carouselAnimation 10s infinite; /* Animación del carrusel */
+    animation: carouselAnimation 7s infinite; /* Animación del carrusel */
+    align-items: center;
   }
   
   .home__body_carreteMarcas-container-image {
@@ -16,7 +20,7 @@
   
   }
   .home__body_carreteMarcas-container-image img{
-    width: 150px;
+    width: 80px;
   }
   
   @keyframes carouselAnimation {
