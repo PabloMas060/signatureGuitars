@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- HEAD -->
+<%- include('./partials/head.ejs') %>
+    <!-- HEADER -->
+    <%- include('./partials/header.ejs') %>
+        <body class="home__body">
+            <div class="home__body_banner"><!-- BANNER -->
+                <img src="/img/banner-rhcp.gif" alt="bannerAnimado">
+            </div>
+            <section class="home__body_sectionOfertas">
+                <h2 class="home__body_sectionOfertas--titulo">Ofertas</h2>
+                <div class="glider-contain">
+                    <div id="glider">
+                        <!-- card -->
+                        <%- include('./partials/cardProduct.ejs') %>
+                            <!-- card -->
+                            <%- include('./partials/cardProduct.ejs') %>
+                                <!-- card -->
+                                <%- include('./partials/cardProduct.ejs') %>
+                    </div>
+                    <div class="container_button">
+                        <button id="buttonGlider" class="home__body_sectionOfertas_glider--button-prev"><i
+                                class="fas fa-chevron-circle-left"></i></button>
+                        <button id="buttonGlider" class="home__body_sectionOfertas_glider--button-next"><i
+                                class="fas fa-chevron-circle-right"></i></button>
+                    </div>
+                </div>
+            </section>
+            <!-- CARRETE DE MARCAS -->
+            <%- include('./partials/carreteMarcas.ejs') %>   
+            <section class="home__body_sectionUltimos">
+                <h2 class="home__body_sectionUltimos--titulo">Últimos Modelos</h2>
+                <div class="home__body_sectionUltimos--container"><!-- Contenedor cards -->
+                    <!-- Card -->
+                    <%- include('./partials/cardNovedad.ejs') %>
+                        <!-- fin card -->
+                        <!-- Card -->
+                        <%- include('./partials/cardNovedad.ejs') %>
+                            <!-- fin card -->
+                            <!-- Card -->
+                            <%- include('./partials/cardNovedad.ejs') %>
+                                <!-- fin card -->
+                                <!-- Card -->
+                                <%- include('./partials/cardNovedad.ejs') %><!-- fin card -->
+                </div>
+            </section>
+            <script src="/javascript/glider.js"></script>
+            <script src="/javascript/carouselMarcas.js"></script>
+        </body>
+        <!-- FOOTER -->
+        <%- include('./partials/footer.ejs') %>
+</html>
