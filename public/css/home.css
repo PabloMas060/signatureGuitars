@@ -87,9 +87,7 @@
     color: #fff;
 }
 
-.glider__container_button {
-    display: flex;
-}
+
 
 .home__body_sectionUltimos {
     background: linear-gradient(160deg, rgba(13, 4, 22, 1) 0%, rgba(76, 89, 89, 0.8323704481792717) 45%, rgba(230, 223, 226, 1) 100%);
@@ -111,12 +109,19 @@
 .home__body_sectionUltimos--card {
     color: #fff;
     border: 2px black;
-    box-shadow: yellow;
     border-radius: 10%;
-    background: linear-gradient(360deg, rgba(13, 4, 22, 1) 0%, rgba(76, 89, 89, 0.8323704481792717) 15%, rgba(230, 223, 226, 1) 100%);
+    /*     background: linear-gradient(360deg, rgba(13, 4, 22, 1) 0%, rgba(76, 89, 89, 0.8323704481792717) 15%, rgba(230, 223, 226, 1) 100%);
+ */
     margin: 1vh 3vh;
     padding: 12px;
     display: flex;
+    transition: 2000ms;
+}
+
+.home__body_sectionUltimos--card:hover {
+    background-color: #fff;
+
+    color: yellow;
 }
 
 .home__body_sectionUltimos--card img {
@@ -180,10 +185,9 @@
 
 .home__footer_info--nav-terms {}
 
+.home__footer_info--nav-pagos {}
+
 .home__footer_info--nav-pagos {
-   
-}
-.home__footer_info--nav-pagos{
     width: 100%;
 }
 
@@ -235,66 +239,100 @@
     .home__header_burguerMenu {
         display: none;
     }
-    .home__body_banner{
+
+    .home__body_banner {
         display: flex;
         height: 250px;
     }
-.home__body_sectionOfertas{
-    margin-top: 5px;
+
+    .home__body_sectionOfertas {
+        margin-top: 5px;
+
+    }
+
+    .home__body_sectionOfertas--titulo {
+        font-size: 3rem;
+    }
+
+    .home__body_sectionUltimos {
+        background: linear-gradient(180deg, rgba(13, 4, 22, 1) 0%, rgba(76, 89, 89, 0.8323704481792717) 45%, rgba(230, 223, 226, 1) 100%);
+
+    }
+
+    .home__body_sectionUltimos--titulo {
+        color: #fff;
+        font-size: 3rem;
+    }
+
+    .home__body_sectionUltimos--container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .home__body_sectionUltimos--card {
+        width: 80%;
+        border-radius: 10%;
+
+
+
+    }
+
+    .home__body_sectionUltimos--card img {
+        width: 40%;
+    }
+
+    .home__body_sectionUltimos--card-info {
+        width: 60%;
+    }
+
+    .home__body_sectionUltimos--card-info-titulo {
+        font-size: 2.5rem;
+    }
+
+    .home__body_sectionUltimos--card-info-descripcion {
+        display: inline;
+        font-size: 2rem;
+    }
+
+    .home__body_sectionUltimos--card-info-precio {
+        font-size: 2.8rem;
+    }
+
+    .home__footer a,
+    .home__footer_info-contacto-subtitulo,
+    .home__footer_info-nav-pagos,
+    .home__footer_info-contacto {
+        font-size: 1.5rem;
+    }
 
 }
-.home__body_sectionOfertas--titulo{
-    font-size: 3rem;
-}
-.home__body_sectionUltimos{
-    background: linear-gradient(180deg, rgba(13, 4, 22, 1) 0%, rgba(76, 89, 89, 0.8323704481792717) 45%, rgba(230, 223, 226, 1) 100%);
 
-}
-.home__body_sectionUltimos--titulo{
-    color: #fff;
-    font-size: 3rem;
-}
-.home__body_sectionUltimos--container{
-display: flex;
-justify-content: center;
-}
-.home__body_sectionUltimos--card{
-    width: 80%;
-    border-radius: 10%;
-}
-.home__body_sectionUltimos--card img{
-width: 40%;
-}
-
-.home__body_sectionUltimos--card-info{
-width: 60%;
-}
-.home__body_sectionUltimos--card-info-titulo{
-    font-size: 2.5rem;
-}
-.home__body_sectionUltimos--card-info-descripcion{
-    display: inline;
-    font-size: 2rem;
-}
-.home__body_sectionUltimos--card-info-precio{
-    font-size: 2.8rem;
-}
-.home__footer a,.home__footer_info-contacto-subtitulo,.home__footer_info-nav-pagos,.home__footer_info-contacto{
-    font-size: 1.5rem;
-}
-
-}
 @media (min-width:1024px) {
-    .home__body_sectionOfertas, .home__body_sectionUltimos{
+
+    .home__body_sectionOfertas,
+    .home__body_sectionUltimos {
         margin: 5px;
     }
-    .home__body_sectionUltimos--container{
+
+    .home__body_sectionUltimos--container {}
+
+    .home__body_sectionUltimos--card{
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+        border-radius: 5%;
+        background-color: black;
+        align-items: center;
+
 
     }
-    .home__body_sectionUltimos--card{
-        width: 40%;
-        border-radius: 10%;
-        background: linear-gradient(180deg, rgba(0, 0, 0, 1) 100%, rgba(76, 89, 89, 0.8323704481792717) 5%, rgba(230, 223, 226, 1) 100%);
+    .home__body_sectionUltimos--card img{
+        width: 90%;
+        border-radius: 5px;
+    }
 
+    .home__body_sectionUltimos--card:hover {
+        background-color: #fff;
+        color: black;
     }
 }

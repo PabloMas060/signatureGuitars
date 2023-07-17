@@ -1,0 +1,55 @@
+.button_card_carusel{
+	display: none;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
+    height: 100%;
+}
+@media (min-width: 768px) {
+    .carousel-inner .carousel-item:not(.active) {
+        display: none;
+    }
+
+    .carousel-inner .carousel-item-next,
+    .carousel-inner .carousel-item-prev {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev,
+.carousel-inner .carousel-item.active {
+    display: flex;
+}
+
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    position: relative;
+}
+
+.carousel-inner .carousel-item-next.carousel-item-start,
+.carousel-inner .carousel-item-prev.carousel-item-end {
+    transform: translateX(0);
+}
+
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    flex-basis: 33.333%;
+}
+
+.carousel-inner .carousel-item-prev.carousel-item-start {
+    transform: translateX(-100%);
+}
+
+.carousel-inner .carousel-item-next.carousel-item-end {
+    transform: translateX(100%);
+}
+@media (min-width: 1024px) {
+.button_card_carusel{
+	display: block;
+}
+}
