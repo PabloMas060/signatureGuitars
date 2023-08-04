@@ -1,6 +1,6 @@
 .home__header {
     background-color: black;
-    font-family: var(--tipografia);
+    font-size: 10px;
 }
 
 .home__header_logo {
@@ -37,75 +37,52 @@
 .home__header_nav-menu {
     display: none;
 }
-
-.home__header_butonCatalogo .home__header_butonCategorias .home__header_butonNoticias {}
-
 .home__header_nav-users {
     width: 20%;
     display: flex;
 }
-
 .home__header_nav-users a {
     color: #fff;
     width: 50%;
 }
-
-.home__header_nav-users-user {}
-
-.home__header_nav-users-cart {}
-
 .home__body {
     color: black;
-    font-family: var(--tipografia);
+    font-family: var(--font-primary);
+  font-size: 1rem;
 }
-
 .home__body_banner {
     display: none;
 }
-
 .home__body_banner img {
     width: 100%;
 
 }
-
-.home__body_carreteMarcas {}
-
 .home__body_sectionOfertas {
     background: linear-gradient(180deg, rgba(13, 4, 22, 1) 10%, rgba(76, 89, 89, 0.8323704481792717) 55%, rgba(230, 223, 226, 1) 100%);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
-
-
-
 }
-
 .home__body_sectionOfertas--titulo {
     width: 100%;
     text-align-last: center;
     color: #fff;
+    font-size: 1rem;
 }
-
-
-
 .home__body_sectionUltimos {
     background: linear-gradient(160deg, rgba(13, 4, 22, 1) 0%, rgba(76, 89, 89, 0.8323704481792717) 45%, rgba(230, 223, 226, 1) 100%);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
 .home__body_sectionUltimos--titulo {
     color: black;
 }
-
 .home__body_sectionUltimos--container {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
 }
-
 .home__body_sectionUltimos--card {
     color: #fff;
     border: 2px black;
@@ -117,38 +94,25 @@
     display: flex;
     transition: 2000ms;
 }
-
-.home__body_sectionUltimos--card:hover {
-    background-color: #fff;
-
-    color: yellow;
-}
-
 .home__body_sectionUltimos--card img {
     width: 88px;
     border-radius: 30%;
 }
-
 .home__body_sectionUltimos--card-info {}
-
 .home__body_sectionUltimos--card-info-titulo {
-    font-size: 1.8rem;
+    font-size: 1rem;
 }
-
 .home__body_sectionUltimos--card-info-descripcion {
     display: none;
-    font-size: 1.4rem;
+    font-size: 1rem;
 }
-
 .home__body_sectionUltimos--card-info-precio {
-    font-size: 1.6rem;
+    font-size: 1rem;
 }
-
 .home__body_sectionUltimos--card-info-iconos {
     display: flex;
     justify-content: flex-end;
 }
-
 .home__footer {
     background-color: black;
     color: #fff;
@@ -156,73 +120,70 @@
     font-size: 0.9rem;
     align-items: flex-end;
     width: 100%;
-    padding: 5px 0 5px 5px;
+    padding: 13px 0 5px 0px;
 }
-
 .home__footer a {
     color: #fff;
 }
-
+.home__footerol, ul {
+    padding-left: 0.5rem;
+}
 .home__footer_info {
     color: #fff;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 30%;
+    width: 40%;
+    font-size: 0.4rem;
 }
-
 .home__footer_info--nav {
     display: flex;
     flex-direction: column;
     font-size: 1rem;
 }
-
 .home__footer_info-copy {
-    width: 40%;
+    width: 30%;
 }
-
-.home__footer_info--nav-faqs {}
-
-.home__footer_info--nav-terms {}
-
-.home__footer_info--nav-pagos {}
-
 .home__footer_info--nav-pagos {
     width: 100%;
 }
-
 .home__footer_info--nav-pagos-iconos {
     width: 100%;
 }
-
 .home__footer_info-contacto {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    font-size: 0.6rem;
+   font-size: 0.2rem; 
     align-items: center;
     width: 30%;
 }
-
-.home__footer_info-contacto-titulo {}
-
-.home__footer_info-contacto-mail {}
-
-.home__footer_info-nav {
-    font-size: 0.8rem;
+.home__footer_info-contacto-titulo {
+    font-size: 0.2rem; 
 }
-
+.home__footer_info-contacto-mail {
+    font-size: 0.2rem; 
+}
+.home__footer_info-nav {
+ 
+}
 .home__footer_info-contacto-subtitulo {
     font-size: 0.5rem;
 }
 
 @media (min-width:768px) {
+    .home__body{
+        font-size: 1rem;
+    }
     .home__header_container_menu ul {
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
         width: 100%;
     }
+    .home__header_logo{
+        width: 600px;
+            }
 
     .home__header_nav-menu {
         display: flex;
@@ -232,7 +193,7 @@
 
     .home__header_nav-menu a {
         color: #fff;
-        font-size: 2rem;
+font-size: 1rem;
 
     }
 
@@ -251,7 +212,7 @@
     }
 
     .home__body_sectionOfertas--titulo {
-        font-size: 3rem;
+        font-size: 1.5rem;
     }
 
     .home__body_sectionUltimos {
@@ -261,7 +222,7 @@
 
     .home__body_sectionUltimos--titulo {
         color: #fff;
-        font-size: 3rem;
+        font-size: 1.5rem;
     }
 
     .home__body_sectionUltimos--container {
@@ -270,15 +231,13 @@
     }
 
     .home__body_sectionUltimos--card {
-        width: 80%;
+        width: 60%;
         border-radius: 10%;
-
-
-
     }
 
     .home__body_sectionUltimos--card img {
         width: 40%;
+        border-radius: 3px;
     }
 
     .home__body_sectionUltimos--card-info {
@@ -286,23 +245,23 @@
     }
 
     .home__body_sectionUltimos--card-info-titulo {
-        font-size: 2.5rem;
+        font-size: 1rem;
     }
 
     .home__body_sectionUltimos--card-info-descripcion {
         display: inline;
-        font-size: 2rem;
+        font-size: 0.8rem;
     }
 
     .home__body_sectionUltimos--card-info-precio {
-        font-size: 2.8rem;
+        font-size: 1rem;
     }
 
     .home__footer a,
     .home__footer_info-contacto-subtitulo,
     .home__footer_info-nav-pagos,
-    .home__footer_info-contacto {
-        font-size: 1.5rem;
+    .home__footer_info-contacto, .home__footer_info-contacto-mail, .home__footer_info-contacto-titulo {
+        font-size: 0.8rem;
     }
 
 }
@@ -335,4 +294,5 @@
         background-color: #fff;
         color: black;
     }
+ 
 }

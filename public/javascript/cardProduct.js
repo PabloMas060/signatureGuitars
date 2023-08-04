@@ -1,4 +1,4 @@
-const primeraSeccion = document.getElementById('seccionNuevaUno')
+/* const primeraSeccion = document.getElementById('seccionNuevaUno')
 const segundaSeccion = document.getElementById('seccionNuevaDos')
 
 const card = document.createElement("div")
@@ -15,4 +15,4 @@ imagenEvento.setAttribute("src", "/img/prod1.jpg")
 primeraSeccion.appendChild(card)
 card.appendChild(h1)
 primeraSeccion.appendChild(eventos)
-eventos.appendChild(imagenEvento)
+eventos.appendChild(imagenEvento) */
