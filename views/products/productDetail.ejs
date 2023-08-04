@@ -1,53 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <!-- HEAD -->
-<%- include('./partials/head.ejs') %>
+<%- include('../partials/head.ejs') %>
     <!-- HEADER -->
-    <%- include('./partials/header.ejs') %>
+    <%- include('../partials/header.ejs') %>
 
-        <body>
-            <main>
-                <section>
+        <body class="detail_body">
+            <main class="detail_main">
+                <section class="detail_section">
+                    <!-- que este h4 sea un nav -->
+                    <h4 class="detail_section__title">Catálogo > PRS > Serie SE > Este Producto</h4>
 
-                    <h4>Catálogo > PRS > Serie SE > Este Producto</h3>
+                    <div class="detail_section__containerProduct">
+                        <h3 class="detail_section__containerProduct-title">
+                            Titulo de Producto</h3>
 
-                        <div>
-                            <div>
-                                <h3>Titulo de Producto</h3>
-                            </div>
-                            <div>
-                                <img src="" alt="ImagenSecundaria">
-                                <img src="" alt="ImagenSecundaria">
-                                <img src="" alt="ImagenSecundaria">
-                                <img src="" alt="ImagenSecundaria">
-                            </div>
-                            <div>
-                                <img src="" alt="ImagenPrincipal">
-                            </div>
-                            <div>
-                                <p>Descripcion: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, iste
-                                    vel?
-                                    Temporibus labore
-                                    sed, deleniti quasi voluptate eos quam repellendus molestiae reiciendis, veritatis
-                                    perferendis dolore saepe est dignissimos aut libero?
-                                </p>
-                                <h4>
-                                    U$S 2000
-                                </h4>
-                                <i class="fa-solid fa-circle"></i>
-                                <i class="fa-solid fa-circle"></i>
-                                <i class="fa-solid fa-circle"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <button>Agregar al carrito</button>
-                            </div>
+                        <div class="detail_section__containerProduct-imgSec">
+                            <img src="/img/prod2.jpg" alt="ImagenSecundaria">
+                            <img src="/img/prod2.jpg" alt="ImagenSecundaria">
+                            <img src="/img/prod2.jpg" alt="ImagenSecundaria">
+                            <img src="/img/prod2.jpg" alt="ImagenSecundaria">
                         </div>
+                        <div class="detail_section__containerProduct-imgPri">
+                            <img src="/img/prod2.jpg" alt="ImagenPrincipal">
+                        </div>
+                        <div class="detail_section__containerProduct-description">
+                            <i class="fa-solid fa-star"></i>
+                            <p>Descripcion: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, iste
+                                vel?
+                                
+                            </p>
+                            <h4 class="detail_section__containerProduct-description-price">
+                                U$S 2000
+                            </h4>
+                            <div class="detail_section__icons">
+                                <i class="fa-solid fa-circle icon1"></i>
+                                <i class="fa-solid fa-circle icon2"></i>
+                                <i class="fa-solid fa-circle icon3"></i>
+                             
+                            </div>
+                 
+                            <button class="detail_section__containerProduct-btn">Agregar al carrito</button>
+                        </div>
+                    </div>
                 </section>
-                <section><!-- Características -->
-                    <h4>
+                <section class="detail_section2"><!-- Características -->
+                    <h4 class="detail_section2__title">
                         Lo que tenés que saber de este producto
                     </h4>
-                    <div> <!-- Primera Caract -->
-                        <h4>Body</h4>
+                    <div class="detail_section2__caracteristic"> <!-- Primera Caract -->
+                        <h4 class="detail_section2__caracteristic-title">Body</h4>
                         <ul>
                             <li>
                                 <h6><b>Body Construction </b><span>SolidBody</span> </h6>
@@ -60,8 +62,8 @@
                             </li>
                         </ul>
                     </div>
-                    <div> <!-- Segunda Caract -->
-                        <h4>Hardware</h4>
+                    <div class="detail_section2__caracteristic"> <!-- Segunda Caract -->
+                        <h4 class="detail_section2__caracteristic-title">Hardware</h4>
                         <ul>
                             <li>
                                 <h6><b>Bridge </b><span>2-Point Steel Tremolo</span> </h6>
@@ -77,8 +79,8 @@
                             </li>
                         </ul>
                     </div>
-                    <div> <!-- Tercera Caract -->
-                        <h4>Neck</h4>
+                    <div class="detail_section2__caracteristic"> <!-- Tercera Caract -->
+                        <h4 class="detail_section2__caracteristic-title">Neck</h4>
                         <ul>
                             <li>
                                 <h6><b>Lorem 1</b><span>Value</span> </h6>
@@ -113,8 +115,8 @@
                             </li>
                         </ul>
                     </div>
-                    <div> <!-- Cuarta Caract -->
-                        <h4>Electronics</h4>
+                    <div class="detail_section2__caracteristic"> <!-- Cuarta Caract -->
+                        <h4 class="detail_section2__caracteristic-title">Electronics</h4>
                         <ul>
                             <li>
                                 <h6><b>Lorem 1</b><span>Value</span> </h6>
@@ -132,16 +134,16 @@
 
                         </ul>
                     </div>
-                    <div> <!-- Quinta Caract -->
-                        <h4>Neck/Body Assembly</h4>
+                    <div class="detail_section2__caracteristic"> <!-- Quinta Caract -->
+                        <h4 class="detail_section2__caracteristic-title">Neck/Body Assembly</h4>
                         <ul>
                             <li>
                                 <h6><b>Lorem 1</b><span>Value</span> </h6>
                             </li>
                         </ul>
                     </div>
-                    <div> <!-- Sexta Caract -->
-                        <h4>Additio0nal Info</h4>
+                    <div class="detail_section2__caracteristic"> <!-- Sexta Caract -->
+                        <h4 class="detail_section2__caracteristic-title">Additio0nal Info</h4>
                         <ul>
                             <li>
                                 <h6><b>Lorem 1</b><span>Value</span> </h6>
@@ -158,8 +160,12 @@
                 </section>
                 <!-- Videos / Reseñas -->
                 <div>
-                    <button><h3>Videos</h3></button>
-                    <button><h3>Reseñas</h3></button>
+                    <button class="btn-video">
+                        <h3>Videos</h3>
+                    </button>
+                    <button class="btn-reseña">
+                        <h3>Reseñas</h3>
+                    </button>
                 </div>
             </main>
         </body>
