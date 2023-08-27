@@ -8,6 +8,12 @@
     justify-content: center; 
     text-align: center;
     height: 100%;
+    box-shadow: -5px 3px 3px #3d3a3a;
+    text-shadow: 5px 3px 3px #3d3a3a;
+}
+.card img{
+    box-shadow: 5px 3px 3px #757373;
+ 
 }
 @media (min-width: 768px) {
     .carousel-inner .carousel-item:not(.active) {
