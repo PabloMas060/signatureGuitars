@@ -6,58 +6,44 @@
         "price": 2000,
         "discount": 0,
         "brand": "PRS",
-        "specifications": [
-            {
-                "body": [
-                    {
-                        "bodyConstruction": "Solid body",
-                        "bodyWood": "Poplar",
-                        "topCarve": "Flat Top"
-                    }
-                ],
-                "Hardware": [
-                    {
-                        "bridge": "2.Points Steel Tremolo",
-                        "tuners": "Vintage",
-                        "hardwareType": "Nickel",
-                        "Nut": "Synthetic Bone"
-                    }
-                ],
-                "neck": [
-                    {
-                        "numberOfFrets": "22",
-                        "scaleLength": "25.5''",
-                        "neckWood": "Maple",
-                        "neckConstruction": "Multi-Ply",
-                        "trussRod": "PRS Double-Acting",
-                        "neckShape": "635JM",
-                        "fretboardWood": "Maple",
-                        "fretboardRadius": "8.5''",
-                        "fretboardInlay": "Small Birds",
-                        "headstockLogo": "Signature ''SE''"
-                    }
-                ],
-                "electronics": [
-                    {
-                        "treblePickup": "635JM''S''",
-                        "middlePickup": "635JM''S''",
-                        "bassPickup": "635JM''S''",
-                        "controls": "Volume and Two Tone Controls with 5- Way Blade Pickup Switch"
-                    }
-                ],
-                "neckBodyAssembly": [
-                    {
-                        "type": "Bolt-On"
-                    }
-                ],
-                "additionalInfo": [
-                    {
-                        "strings": "PRS Classic 10-46",
-                        "tuning": "Standard (6String);E,A,D,G,B,E",
-                        "case": "Gig Bag"
-                    }
-                ]
+        "specifications": {
+            "body": {
+                "bodyConstruction": "Solid body",
+                "bodyWood": "Poplar",
+                "topCarve": "Flat Top"
+            },
+            "Hardware": {
+                "bridge": "2.Points Steel Tremolo",
+                "tuners": "Vintage",
+                "hardwareType": "Nickel",
+                "Nut": "Synthetic Bone"
+            },
+            "neck": {
+                "numberOfFrets": "22",
+                "scaleLength": "25.5''",
+                "neckWood": "Maple",
+                "neckConstruction": "Multi-Ply",
+                "trussRod": "PRS Double-Acting",
+                "neckShape": "635JM",
+                "fretboardWood": "Maple",
+                "fretboardRadius": "8.5''",
+                "fretboardInlay": "Small Birds",
+                "headstockLogo": "Signature ''SE''"
+            },
+            "electronics": {
+                "treblePickup": "635JM''S''",
+                "middlePickup": "635JM''S''",
+                "bassPickup": "635JM''S''",
+                "controls": "Volume and Two Tone Controls with 5- Way Blade Pickup Switch"
+            },
+            "neckBodyAssembly": {
+                "type": "Bolt-On"
+            },
+            "additionalInfo": {
+                "strings": "PRS Classic 10-46",
+                "tuning": "Standard (6String);E,A,D,G,B,E",
+                "case": "Gig Bag"
             }
-        ]
+        }
     }
 ]
