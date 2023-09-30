@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "Stratocaster"
+    },
+    {
+        "id": 2,
+        "name": "Les Paul"
+    },
+    {
+        "id": 3,
+        "name": "Telecaster"
+    },
+    {
+        "id": 4,
+        "name": "SG"
+    },
+    {
+        "id": 5,
+        "name": "Dreadnought"
+    }
+]

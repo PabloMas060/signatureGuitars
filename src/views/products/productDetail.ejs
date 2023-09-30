@@ -9,11 +9,11 @@
             <main class="detail_main">
                 <section class="detail_section">
                     <!-- que este h4 sea un nav -->
-                    <h4 class="detail_section__title">Catálogo > PRS > Serie SE > Este Producto</h4>
+                    <h6 class="detail_section__title">Catálogo > PRS > Serie SE > Este Producto</h6>
 
                     <div class="detail_section__containerProduct">
-                        <h3 class="detail_section__containerProduct-title">
-                            Titulo de Producto</h3>
+                        <h6 class="detail_section__containerProduct-title">
+                            Titulo de Producto</h6>
 
                         <div class="detail_section__containerProduct-imgSec">
                             <img src="/img/prod2.jpg" alt="ImagenSecundaria">
@@ -21,26 +21,29 @@
                             <img src="/img/prod2.jpg" alt="ImagenSecundaria">
                             <img src="/img/prod2.jpg" alt="ImagenSecundaria">
                         </div>
-                        <div class="detail_section__containerProduct-imgPri">
-                            <img src="/img/prod2.jpg" alt="ImagenPrincipal">
-                        </div>
-                        <div class="detail_section__containerProduct-description">
-                            <i class="fa-solid fa-star"></i>
-                            <p>Descripcion: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, iste
-                                vel?
-                                
-                            </p>
-                            <h4 class="detail_section__containerProduct-description-price">
-                                U$S 2000
-                            </h4>
-                            <div class="detail_section__icons">
-                                <i class="fa-solid fa-circle icon1"></i>
-                                <i class="fa-solid fa-circle icon2"></i>
-                                <i class="fa-solid fa-circle icon3"></i>
-                             
+                        <div class="prueba">
+                            <div class="detail_section__containerProduct-imgPri">
+                                <img src="/img/prod2.jpg" alt="ImagenPrincipal">
                             </div>
-                 
-                            <button class="detail_section__containerProduct-btn">Agregar al carrito</button>
+                            <div class="detail_section__containerProduct-description">
+                                <i class="fa-solid fa-star"></i>
+                                <p>Descripcion: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, iste
+                                    vel?
+                                    
+                                </p>
+                                <h4 class="detail_section__containerProduct-description-price">
+                                    U$S 2000
+                                </h4>
+                                <div class="detail_section__icons">
+                                    <i class="fa-solid fa-circle icon1"></i>
+                                    <i class="fa-solid fa-circle icon2"></i>
+                                    <i class="fa-solid fa-circle icon3"></i>
+                                 
+                                </div>
+                           
+                                <button class="detail_section__containerProduct-btn">Agregar al carrito</button>
+                            
+                        </div>
                         </div>
                     </div>
                 </section>
@@ -160,12 +163,8 @@
                 </section>
                 <!-- Videos / Reseñas -->
                 <div>
-                    <button class="btn-video">
-                        <h3>Videos</h3>
-                    </button>
-                    <button class="btn-reseña">
-                        <h3>Reseñas</h3>
-                    </button>
+                    <%- include('../partials/videos-reseñ.ejs') %>
+             
                 </div>
             </main>
         </body>

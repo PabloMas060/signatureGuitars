@@ -1,0 +1,82 @@
+[
+    {
+        "idMarcas": 1,
+        "name": "Fender",
+        "serie_id": 1001
+    },
+    {
+        "idMarcas": 2,
+        "name": "Gibson",
+        "serie_id": 1002
+    },
+    {
+        "idMarcas": 3,
+        "name": "PRS",
+        "serie_id": 1003
+    },
+    {
+        "idMarcas": 4,
+        "name": "Ibanez",
+        "serie_id": 1004
+    },
+    {
+        "idMarcas": 5,
+        "name": "Gretsch",
+        "serie_id": 1005
+    },
+    {
+        "idMarcas": 6,
+        "name": "ESP",
+        "serie_id": 1006
+    },
+    {
+        "idMarcas": 7,
+        "name": "Jackson",
+        "serie_id": 1007
+    },
+    {
+        "idMarcas": 8,
+        "name": "Taylor",
+        "serie_id": 1008
+    },
+    {
+        "idMarcas": 9,
+        "name": "Schecter",
+        "serie_id": 1009
+    },
+    {
+        "idMarcas": 10,
+        "name": "Gibson Custom",
+        "serie_id": 1010
+    },
+    {
+        "idMarcas": 11,
+        "name": "G&L",
+        "serie_id": 1011
+    },
+    {
+        "idMarcas": 12,
+        "name": "Epiphone",
+        "serie_id": 1012
+    },
+    {
+        "idMarcas": 13,
+        "name": "Music Man",
+        "serie_id": 1013
+    },
+    {
+        "idMarcas": 14,
+        "name": "Jackson Custom Shop",
+        "serie_id": 1014
+    },
+    {
+        "idMarcas": 15,
+        "name": "D'Angelico",
+        "serie_id": 1015
+    },
+    {
+        "idMarcas": 16,
+        "name": "Yamaha",
+        "serie_id": 1016
+    }
+]

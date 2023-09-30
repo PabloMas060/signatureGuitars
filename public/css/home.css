@@ -2,7 +2,10 @@
     background-color: black;
     font-size: 10px;
 }
-
+.home__header_container{
+    display: flex;
+    justify-content: space-between;
+}
 .home__header_logo {
     margin: 0;
     padding: 0;
@@ -21,11 +24,11 @@
 }
 
 
-.home__header_container_menu {
+/* .home__header_container_menu {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-}
+} */
 
 .home__header_burguerMenu {
     background-color: black;
@@ -46,9 +49,9 @@
 }
 
 .home__header_nav-users {
-    width: 20%;
+    width: 40%;
     display: flex;
-    
+    justify-content: space-around;
 }
 
 .home__header_nav-users a {
@@ -260,8 +263,7 @@ ul {
     }
 
     .home__header_logo {
-        width: 10%;
-
+        width: 30%;
     }
     .home__header_nav-users a{
         width: 10%;

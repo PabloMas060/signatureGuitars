@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "name": "Electric",
+        "morfology_id": 1
+    },
+    {
+        "id": 2,
+        "name": "Acoustic",
+        "morfology_id": 2
+    },
+    {
+        "id": 3,
+        "name": "Semi-Hollowbody",
+        "morfology_id": 3
+    },
+    {
+        "id": 4,
+        "name": "Classical",
+        "morfology_id": 4
+    },
+    {
+        "id": 5,
+        "name": "Bass",
+        "morfology_id": 5
+    }
+]
