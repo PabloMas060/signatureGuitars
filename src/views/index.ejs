@@ -4,12 +4,48 @@
 <%- include('./partials/head.ejs') %>
     <!-- HEADER -->
     <%- include('./partials/header.ejs') %>
-
+    <%- include('./partials/navbar.ejs') %>
         <body class="home__body">
-            <div class="home__body_banner"><!-- BANNER -->
-                <img src="/img/banner-rhcp.gif" alt="bannerAnimado">
-            </div>
-            <section class="home__body_sectionOfertas">
+            <!-- BANNER -->
+            <%- include('./partials/banner.ejs') %>
+           
+                <!-- CARRETE DE MARCAS -->
+                <%- include('./partials/carreteMarcas.ejs') %>
+
+<!-- PRUEBA MODAL -->
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    <i class="fa-solid fa-eye"></i>
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+           <!--  <section class="home__body_sectionOfertas">
                 <h2 class="home__body_sectionOfertas--titulo">Ofertas</h2>
                 <div class="swiper mySwiper">
                     <div class="swiper-wrapper">
@@ -116,9 +152,8 @@
                     </div>
                     <div class="swiper-pagination"></div>
                   </div>
-            </section>
-            <!-- CARRETE DE MARCAS -->
-            <%- include('./partials/carreteMarcas.ejs') %>
+            </section> -->
+       
                 <section class="home__body_sectionUltimos">
                     <h2 class="home__body_sectionUltimos--titulo">Últimos Modelos</h2>
                     <div class="home__body_sectionUltimos--container"><!-- Contenedor cards -->
@@ -135,6 +170,12 @@
                                     <%- include('./partials/cardNovedad.ejs') %><!-- fin card -->
                     </div>
                 </section>
+<section class="home_New">
+    <h2 class="home__body_sectionUltimos--titulo">Productos</h2>
+    <%- include('./partials/cardNew.ejs') %>
+</section>
+
+
                 <%- include('./partials/videos-reseñ.ejs') %>
                 <div id="seccionNuevaUno"></div>
                 <div id="seccionNuevaDos"></div>
@@ -155,6 +196,7 @@
       },
     });
   </script>
+
         </body>
         <!-- FOOTER -->
         <%- include('./partials/footer.ejs') %>

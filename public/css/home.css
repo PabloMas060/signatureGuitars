@@ -57,7 +57,7 @@
 .home__header_nav-users a {
     color: #fff;
     width: 50%;
-    text-shadow: 2px 2px 3px #fff;
+  
 }
 
 .home__body {
@@ -107,7 +107,12 @@
     flex-wrap: wrap;
     text-align: center;
 }
-
+.home_New{
+    background-color: #fff;
+}
+.home_New h2{
+    color: #000;
+}
 .home__body_sectionUltimos--card {
     color: #fff;
     border: 2px black;
@@ -267,6 +272,7 @@ ul {
     }
     .home__header_nav-users a{
         width: 10%;
+        font-size: 0.8rem;
       
     }
 
